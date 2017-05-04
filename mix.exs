@@ -29,7 +29,9 @@ defmodule Q.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:configparser_ex, "~> 1.0"}
+    ]
   end
 
   defp escript_config do
