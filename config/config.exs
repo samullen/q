@@ -2,7 +2,9 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-config :q, path: "/Users/samullen/Dropbox/Apps/Notational Data/queue.txt"
+import_config "#{Mix.env}.exs"
+
+# config :q, qrc_path: "~/.qrc"
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
