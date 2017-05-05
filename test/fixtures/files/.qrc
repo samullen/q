@@ -1,0 +1,2 @@
+[default]
+qrc_path = test/fixtures/files/queue.txt
